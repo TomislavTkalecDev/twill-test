@@ -18,8 +18,8 @@ class Text extends TwillBlockComponent
     public function getForm(): Form
     {
         return Form::make([
-            Input::make()->name('title'),
-            Wysiwyg::make()->name('text')
+            Input::make()->name('title')->label('Title'),
+            Wysiwyg::make()->name('text')->label('Text')
         ]);
     }
 }

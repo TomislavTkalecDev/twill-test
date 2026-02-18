@@ -1,4 +1,4 @@
-{{-- @if($block->image('image'))
+@if($block->image('image'))
 <figure>
     <img 
         src="{{ $block->image('image', 'default') }}" 
@@ -11,4 +11,4 @@
         </figcaption>
     @endif
 </figure>
-@endif --}}
+@endif

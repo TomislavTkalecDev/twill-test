@@ -28,4 +28,10 @@ class Image extends TwillBlockComponent
                 ->maxLength(200)
         ]);
     }
+
+    // Add this method for ADMIN preview
+    public function renderForBlocks(): View
+    {
+        return view('site.blocks.image');
+    }
 }

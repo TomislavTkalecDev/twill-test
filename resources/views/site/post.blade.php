@@ -1,4 +1,4 @@
-<!doctype html>
+{{-- <!doctype html>
 <html lang="en">
 <head>
     <title>Tomislav</title>
@@ -14,4 +14,4 @@
     {{ $item->body }}
 </div>
 </body>
-</html>
+</html> --}}
