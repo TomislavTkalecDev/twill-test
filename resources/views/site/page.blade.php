@@ -6,6 +6,11 @@
     {{-- @vite('resources/css/app.css') --}}
 </head>
 <body>
+        {{-- Cover Image --}}
+    @if($item->image('cover', 'mobile'))
+        <img src="{{ $item->image('cover', 'mobile') }}" alt="{{ $item->title }}" style="width: 100%; height: auto;" />
+    @endif
+
     <div>
         {!! $item->renderBlocks() !!}
     </div>
