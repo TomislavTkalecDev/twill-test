@@ -1,4 +1,4 @@
-@if($block->image('image'))
+{{-- @if($block->image('image'))
 <figure>
     <img 
         src="{{ $block->image('image', 'default') }}" 
@@ -11,4 +11,13 @@
         </figcaption>
     @endif
 </figure>
-@endif
+@endif --}}
+
+@twillBlockTitle('Image')
+@twillBlockIcon('text')
+@twillBlockGroup('app')
+ 
+<x-twill::medias
+    name="highlight"
+    label="Highlight"
+/>

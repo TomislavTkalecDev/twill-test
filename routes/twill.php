@@ -6,3 +6,4 @@ TwillRoutes::module('posts');
 
 //TwillRoutes::module('posts');
 TwillRoutes::module('pages');
+TwillRoutes::module('menuLinks');

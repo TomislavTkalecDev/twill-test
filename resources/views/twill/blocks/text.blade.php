@@ -1,19 +1,13 @@
-{{-- <div>
-  <h2>{{ $input('title') }}</h2>
-  {!! $input('text') !!}
-</div> --}}
-
-
 @twillBlockTitle('Text')
 @twillBlockIcon('text')
 @twillBlockGroup('app')
- 
+
 <x-twill::input
     name="title"
     label="Title"
     :translated="true"
 />
- 
+
 <x-twill::wysiwyg
     name="text"
     label="Text"

@@ -23,7 +23,6 @@ class PageDisplayController extends Controller
         // get the first published page as homepage
         $page = $pageRepository->published()->first();
 
-        //dd($page);
         if (!$page) {
             abort(404);
         }
